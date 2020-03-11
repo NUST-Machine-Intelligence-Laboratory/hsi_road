@@ -1,0 +1,31 @@
+model_cfgs:
+  model_name: fcn
+  model_args:
+    encoder_name: mobilenetv3
+    in_channel_nb: 25
+    classes_nb: 2
+
+dataset_cfgs:
+  dataset_name: hsi_road
+  dataset_args:
+    data_dir: /farm/lhf/data/hsi_road
+    collection: nir
+    classes:
+      - background
+      - road
+
+loss_cfgs:
+  loss_name: ce
+  loss_args:
+    weight: ~
+    reduction: mean
+  loss_activation: softmax
+
+train_cfgs:
+  gpus: '0'
+  nb_gpu_nodes: 1
+  distribute_backend: ~
+  batch_size_per_gpu: 4
+  lr_rate: 0.01
+  lr_scheduler_step: 10
+  lr_scheduler_gamma: 0.1
