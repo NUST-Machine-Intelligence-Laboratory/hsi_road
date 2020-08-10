@@ -27,7 +27,7 @@ among which (a),(b),(c) are in urban scenes and (d),(e),(f),(g),(h) are in rural
 
 This dataset is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, scientific publications, or personal experimentation. Permission is granted to use the data given that you agree:
 
-* That the dataset comes ¡°AS IS¡±, without express or implied warranty. Although every effort has been made to ensure accuracy, we do not accept any responsibility for errors or omissions.
+* That the dataset comes Â¡Â°AS ISÂ¡Â±, without express or implied warranty. Although every effort has been made to ensure accuracy, we do not accept any responsibility for errors or omissions.
 
 * That you include a reference to the HSI Dataset in any work that makes use of the dataset. For research papers, cite our preferred publication as listed; for other media cite our preferred publication as listed.
 
@@ -43,7 +43,7 @@ How to use
 
     - Download data into project root directory and uncompress them using
         ```
-        wget https://hsiroad.oss-cn-hongkong.aliyuncs.com/hsi_road.tar.gz
+        wget https://hsiroad-sh.oss-cn-shanghai.aliyuncs.com/hsi_road.tar.gz
         tar -xvf hsi_road.tar.gz
         ```
 
